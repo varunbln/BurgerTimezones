@@ -1,0 +1,8 @@
+---
+name: BurgerTimezones
+version: 1.0.0
+main: Heisenburger69\BurgerTimezones\Main
+api: 3.0.0
+description: Simple plugin allowing players to view the current time with respect to different timezones
+author: Heisenburger69
+...

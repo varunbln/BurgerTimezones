@@ -1,0 +1,15 @@
+# Use & for color codes throughout this Config
+
+# This message is sent when a player executes /currenttime without any timezone specified
+# The server's default time is sent to the player
+# The current time replaces {TIME}
+default-message: "&aThe current Server Time is &b{TIME}"
+
+# This message is sent when a player executes /currenttime with a timezone specified
+# The current time at the timezone is sent to the player
+# The current time at the timezone specified replaces {TIME}
+# The name of the timezone replaces {TIMEZONE}
+timezone-message: "&aThe current time in &b{TIMEZONE} &ais &b{TIME}"
+
+# This message is sent to the player when the timezone specified is not found
+no-timezone-message: "&cThe given timezone could not be found!"
