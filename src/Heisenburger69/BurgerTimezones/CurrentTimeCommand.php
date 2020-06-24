@@ -20,7 +20,7 @@ class CurrentTimeCommand extends Command implements PluginIdentifiableCommand
     public function __construct(string $name, string $description = "", string $usageMessage = null, array $aliases = [])
     {
         parent::__construct($name, $description, $usageMessage, $aliases);
-        $this->setPermission("currenttime.view");
+        $this->setPermission("burgertimezones.command");
     }
 
     /**
@@ -32,7 +32,7 @@ class CurrentTimeCommand extends Command implements PluginIdentifiableCommand
      */
     public function execute(CommandSender $sender, string $commandLabel, array $args): void
     {
-        if(!$sender->hasPermission("currenttime.view")) {
+        if(!$sender->hasPermission("burgertimezones.command")) {
             $sender->sendMessage(C::RED . "You do not have permission to use this command.");
             return;
         }

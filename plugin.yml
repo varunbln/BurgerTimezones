@@ -3,6 +3,12 @@ name: BurgerTimezones
 version: 1.0.0
 main: Heisenburger69\BurgerTimezones\Main
 api: 3.0.0
+permissions:
+  burgertimezones.command:
+    default: true
+    description: Allow users to execute /currenttime
+
 description: Simple plugin allowing players to view the current time with respect to different timezones
 author: Heisenburger69
+website: github.com/Heisenburger69
 ...

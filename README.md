@@ -5,4 +5,4 @@ A list of Timezone abbreviations can be found at https://en.wikipedia.org/wiki/L
 ### Commands:
 There is only one command /currenttime with the aliases /ct and /servertime
 ### Permissions:
-Players can be given the permission node "currenttime.view" to be able to use /currenttime
+Players can be given the permission node "burgertimezones.command" to be able to use /currenttime
